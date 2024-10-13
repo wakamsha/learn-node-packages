@@ -1,8 +1,7 @@
 {
   // linter と formatter の設定
   "editor.tabSize": 2,
-  "editor.codeActionsOnSave": {
-  },
+  "editor.codeActionsOnSave": {},
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
 
@@ -14,5 +13,6 @@
     "**/.vscode/*.json": "jsonc"
   },
   "files.insertFinalNewline": true,
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  "cSpell.words": ["conventionalcommits"]
 }
