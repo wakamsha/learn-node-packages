@@ -18,12 +18,5 @@
   "bugs": {
     "url": "https://github.com/wakamsha/learn-node-packages/issues"
   },
-  "homepage": "https://github.com/wakamsha/learn-node-packages#readme",
-  "devDependencies": {
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/git": "10.0.1",
-    "conventional-changelog-conventionalcommits": "8.0.0",
-    "semantic-release": "24.1.2",
-    "semantic-release-monorepo": "8.0.2"
-  }
+  "homepage": "https://github.com/wakamsha/learn-node-packages#readme"
 }
