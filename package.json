@@ -1,6 +1,7 @@
 {
   "name": "learn-node-packages",
   "description": "A simple node package to learn how to create and publish node packages",
+  "private": true,
   "type": "module",
   "engines": {
     "node": ">= 20.0.0",
