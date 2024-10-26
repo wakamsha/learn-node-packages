@@ -1,3 +1,3 @@
-# @wakamsha/tsconfig-one
+# learn-node-packages
 
-wakamsha's generic tsconfig.
+A simple node package to learn how to create and publish node packages.
