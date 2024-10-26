@@ -14,7 +14,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wakamsha/learn-node-packages.git"
+    "url": "git+https://github.com/wakamsha/learn-node-packages.git",
+    "directory": "packages/tsconfig-one"
   },
   "keywords": [
     "typescript",
