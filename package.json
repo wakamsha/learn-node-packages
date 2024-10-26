@@ -1,39 +1,28 @@
 {
-  "name": "@wakamsha/tsconfig-one",
-  "version": "1.1.0",
-  "description": "wakamsha's generic tsconfig for local checking.",
+  "name": "learn-node-packages",
+  "description": "A simple node package to learn how to create and publish node packages",
   "type": "module",
   "engines": {
-    "node": ">= 20.0.0"
+    "node": ">= 20.0.0",
+    "pnpm": "9.12.2",
+    "npm": "please use pnpm instead"
   },
-  "files": [
-    "tsconfig.json"
-  ],
-  "scripts": {
-    "release": "semantic-release"
-  },
+  "packageManager": "pnpm@9.12.2",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wakamsha/tsconfig-one.git"
+    "url": "git+https://github.com/wakamsha/learn-node-packages.git"
   },
-  "keywords": [
-    "typescript",
-    "tsconfig"
-  ],
   "author": "wakamsha <wakamsha@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wakamsha/tsconfig-one/issues"
+    "url": "https://github.com/wakamsha/learn-node-packages/issues"
   },
-  "homepage": "https://github.com/wakamsha/tsconfig-one#readme",
+  "homepage": "https://github.com/wakamsha/learn-node-packages#readme",
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "conventional-changelog-conventionalcommits": "8.0.0",
     "semantic-release": "24.1.2",
-    "typescript": "5.6.3"
-  },
-  "peerDependencies": {
-    "typescript": "^5.6.3"
+    "semantic-release-monorepo": "8.0.2"
   }
 }
