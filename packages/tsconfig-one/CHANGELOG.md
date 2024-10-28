@@ -1,3 +1,9 @@
+## [@wakamsha/tsconfig-one-v1.4.0](https://github.com/wakamsha/learn-node-packages/compare/@wakamsha/tsconfig-one-v1.3.0...@wakamsha/tsconfig-one-v1.4.0) (2024-10-28)
+
+### Features
+
+* Update tsconfig one 1.4 ([#12](https://github.com/wakamsha/learn-node-packages/issues/12)) ([14850e3](https://github.com/wakamsha/learn-node-packages/commit/14850e37d556e8e94783397f4f07e278040b4bf6))
+
 ## [@wakamsha/tsconfig-one-v1.3.0](https://github.com/wakamsha/learn-node-packages/compare/@wakamsha/tsconfig-one-v1.2.0...@wakamsha/tsconfig-one-v1.3.0) (2024-10-26)
 
 ### Features
