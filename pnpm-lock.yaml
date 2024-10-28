@@ -8,28 +8,33 @@ importers:
 
   .: {}
 
-  packages/release-config: {}
+  packages/release-config:
+    dependencies:
+      '@semantic-release/changelog':
+        specifier: ^6.0.3
+        version: 6.0.3(semantic-release@24.2.0(typescript@5.6.3))
+      '@semantic-release/git':
+        specifier: ^10.0.1
+        version: 10.0.1(semantic-release@24.2.0(typescript@5.6.3))
+      conventional-changelog-conventionalcommits:
+        specifier: ^8.0.0
+        version: 8.0.0
+      semantic-release-monorepo:
+        specifier: ^8.0.2
+        version: 8.0.2(semantic-release@24.2.0(typescript@5.6.3))
+    devDependencies:
+      semantic-release:
+        specifier: 24.2.0
+        version: 24.2.0(typescript@5.6.3)
 
   packages/tsconfig-one:
     devDependencies:
-      '@semantic-release/changelog':
-        specifier: 6.0.3
-        version: 6.0.3(semantic-release@24.2.0(typescript@5.6.3))
-      '@semantic-release/git':
-        specifier: 10.0.1
-        version: 10.0.1(semantic-release@24.2.0(typescript@5.6.3))
-      conventional-changelog-conventionalcommits:
-        specifier: 8.0.0
-        version: 8.0.0
       release-config:
         specifier: workspace:*
         version: link:../release-config
       semantic-release:
         specifier: 24.2.0
         version: 24.2.0(typescript@5.6.3)
-      semantic-release-monorepo:
-        specifier: 8.0.2
-        version: 8.0.2(semantic-release@24.2.0(typescript@5.6.3))
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
